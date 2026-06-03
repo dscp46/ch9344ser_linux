@@ -77,7 +77,7 @@ static DEFINE_MUTEX(ch9344_minors_lock);
 
 
 static void ch9344_tty_set_termios(struct tty_struct *tty,
-                                   struct ktermios *termios_old);
+                                   const struct ktermios *termios_old);
 
 static int ch9344_get_portnum(int index);
 
@@ -1468,7 +1468,7 @@ u8 cal_recv_tmt(__le32 bd)
 }
 
 static void ch9344_tty_set_termios(struct tty_struct *tty,
-                                   struct ktermios *termios_old)
+                                   const struct ktermios *termios_old)
 {
 	struct ch9344 *ch9344 = tty->driver_data;
 	struct ktermios *termios = &tty->termios;
