@@ -8,7 +8,7 @@ Homepage: https://github.com/sztsian/ch9344ser_linux/
 Vcs-Browser: https://github.com/dscp46/ch9344ser_linux/
 
 Package: ch9344-dkms
-Architecture: any
+Architecture: all
 Multi-Arch: foreign
 Depends: dkms (>= 1.95), ${misc:Depends}
 Description: CH9344/CH348 driver in DKMS format
