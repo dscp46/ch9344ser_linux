@@ -1,0 +1,5 @@
+ch9344.c	usr/src/ch9344-1.9/
+ch9344.h	usr/src/ch9344-1.9/
+dkms.conf	usr/src/ch9344-1.9/
+Makefile	usr/src/ch9344-1.9/
+README.md	usr/share/doc/ch9344-dkms/

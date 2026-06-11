@@ -1,0 +1,4 @@
+debian/.debhelper
+debian/ch9344-dkms*
+debian/debhelper-build-stamp
+debian/files
