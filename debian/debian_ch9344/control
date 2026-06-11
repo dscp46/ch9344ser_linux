@@ -1,0 +1,16 @@
+Source: ch9344-dkms
+Section: contrib/kernel
+Priority: optional
+Maintainer: Célestine F4HOF <celestine+dev@gramaize.eu>
+Build-Depends: debhelper-compat (= 13), dkms (<< 3.0.3-3~) | dh-sequence-dkms
+Standards-Version: 4.6.2.1
+Homepage: https://github.com/sztsian/ch9344ser_linux/
+Vcs-Browser: https://github.com/dscp46/ch9344ser_linux/
+
+Package: ch9344-dkms
+Architecture: all
+Multi-Arch: foreign
+Depends: dkms (>= 1.95), ${misc:Depends}
+Description: CH9344/CH348 driver in DKMS format
+  This package provides the source code for WCH's serial to usb converter.
+  Kernel sources or headers are required to compile this module.
